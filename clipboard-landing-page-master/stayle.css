@@ -1,0 +1,288 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.flex-contenir{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: top right;
+    justify-content:center;
+
+}
+.flex-items1,.flex-items8{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.flex-items1 img{
+    width: 100px;
+    margin-left: 180px;
+    
+}
+ul{
+    margin-top: 60px;
+    display: flex;
+    list-style-type:none;
+    
+}
+li{
+    
+    margin-left: 20px;
+    width: 200px;
+
+    
+    
+}
+.a1{
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: rgb(77, 163, 77);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.a2{
+    background-color: rgb(55, 55, 221);
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.p1{
+    text-align: center;
+}
+
+.flex-items2{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex-items2 h1{
+    text-align: center;
+}
+.flex-items3{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+
+
+}
+.flex-items3 img{
+    margin-top: 60px;
+}
+.item1{
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.flex-items3 div{
+    margin-top: 50px;
+}
+.item1 p{
+    width: 300px;
+}
+.flex-items4{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex-items4 img{
+    margin-left: -80px;
+
+}
+.flex-items5{
+    width: 500px;
+    margin: 0 auto;
+}
+.flex-items6{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content:space-between;
+
+}
+.flex-items6 div{
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.flex-items7{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.flex-items7 a{
+    width: 160px;
+    
+}
+.flex-items7 img{
+    margin: 60px 0px 60px 120px;
+    
+}
+.flex-items9{
+    width: 99,99%;
+    height: 200px;
+    background-color: rgb(216, 208, 208);
+    color: white;
+    display: flex;
+    justify-items: center;
+}
+.img1{
+    
+    margin: auto 220px;
+    
+}
+.flex-sit{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 300px;
+    
+}
+.flex-sit a{
+    width: 100px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+    color: black;
+    
+}
+.flex-secial{
+    margin-top: 70px;
+    margin-left: 350px;
+}
+.flex-secial img{
+    margin-left: 40px;
+    
+}
+@media screen and (max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .flex-contenir{
+        width: 100%;
+    }
+    .flex-items1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flex-items1 img{
+        width: 80px;
+        margin: auto 40%;
+    }
+    
+    h1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    ul{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    li{
+        margin-top: 40px;
+    }
+    .flex-items2{
+        width: 80%;
+        display: block;
+    }
+    .flex-items2 img{
+        width: 200px;
+        
+    }
+    .flex-items3{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flex-items3 div{
+        width: 80%;
+        margin: 40px auto;
+
+    }
+    .item1{
+        width: 60%;
+
+    } 
+    .flex-items4{
+        width: 80%;
+    }
+    .flex-items4 img{
+        width: 300px;
+        margin: 30px 5%;
+    }
+    .flex-items5{
+        width: 80%;
+    }
+    .flex-items6{
+        width: 80%;
+        display: block;
+    }
+    .flex-items6 div{
+        width: 80%;
+        margin: 50px auto;
+    }
+    .flex-items6 div h4{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .flex-items7{
+        width: 90%;
+        display: block;
+        
+    }
+    .flex-items7 img{
+        width: 200px;
+        margin: 50px 20%;
+    }
+    .flex-items8{
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .flex-items9{
+        width: 99,99%;
+        display: block;
+        height: 400px;
+    }
+    .flex-items9 img{
+        width: 100px;
+        
+        margin: 50px 30%;
+    }
+    .flex-sit{
+        display: block;
+        width: 200px;
+        margin: 10px 30%;
+    }
+    .flex-sit a{
+        line-height: 20px;
+    }
+    .flex-secial{
+        display: flex;
+        width: 100px;
+        margin:-120px 20%;
+    }
+
+}
